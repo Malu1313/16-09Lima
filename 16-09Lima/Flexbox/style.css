@@ -1,0 +1,25 @@
+.container{
+    display: flex; 
+    flex-direction: row; /*Alinha os itens na horizontal*/
+    flex-wrap: wrap; /*Permite quebra de linha*/
+    justify-content: space-between; /*Distribui os itens com espaçamento igua entre eles*/
+    align-items: center;
+    height: 100%;
+    border: 2px solid #000;
+}
+
+.item{
+    flex: 1;
+    padding: 20px;
+    margin: 10 px;
+    background-color: rgb(255, 162, 212);
+    border: 1px solid #000;
+    text-align: center;
+}
+
+header, footer{
+    background-color: #f5ebc9;
+    color:rgb(15, 15, 15);
+    text-align: center;
+    padding: 10px;
+}
