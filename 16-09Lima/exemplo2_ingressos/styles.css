@@ -19,7 +19,7 @@ header {
   text-align: center;
 }
 
-.logo {
+header .logo  {
   /*uso do flexbox para alinhar a logo e o título*/
   display: flex;
 
@@ -28,10 +28,77 @@ header {
 
   /*Centraliza os itens horizontalmente*/
   justify-content: center;
-  background-color: brown;
+  /*background-color: brown;*/
 }
 
-img {
+header .logo img {
     max-width: 50px;
     margin-right: 10px;
+    margin-bottom: 10px; 
+}
+header .logo h1{
+  margin-bottom: 10px; 
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li{
+  margin: 0 15px;
+}
+
+nav ul li a{
+  color:rgb(86, 54, 11);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+main{
+  padding: 20px;
+}
+
+main section{
+  margin-bottom: 40px;
+}
+
+#home{
+    background-color: rgb(238, 194, 36); 
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#home h2{
+  color:rgb(58, 36, 7);
+}
+
+.eventos-container{
+    display: flex;
+    gap: 20px;
+}
+
+.eventos-item{
+    background-color: rgb(238, 194, 36);
+    color:rgb(9, 9, 9);
+    text-align: center;
+    padding: 20px 3px;
+    width: 100%;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 20px;
+  bottom: 0;
+  position:fixed;
+  width: 100%;
 }
